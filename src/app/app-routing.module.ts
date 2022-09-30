@@ -8,6 +8,11 @@ const routes: Routes = [
 },
 
 {
+  path: 'antes',
+  loadChildren: () => import('src/app/productos/productos.module').then(m => m.ProductosModule)
+},
+
+{
   path: '**', redirectTo: '',
 }
 ];
