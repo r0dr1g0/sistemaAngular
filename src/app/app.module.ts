@@ -5,7 +5,9 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 //Llamada
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { ProductosModule } from './productos/productos.module';
+import { ClassMaterialModule } from './material.module';
 
 @NgModule({
   declarations: [
@@ -13,10 +15,13 @@ import { HttpClientModule } from '@angular/common/http';
     ],
   imports: [
     BrowserModule,
+    ClassMaterialModule,
     //Llamada
     HttpClientModule,
     AppRoutingModule,
+    BrowserAnimationsModule,
     // ProductosModule
+
 
 
   ],
