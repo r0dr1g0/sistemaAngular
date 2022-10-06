@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+// Importar y tambien clase persona
+import { PersonasService } from './personas.service';
+import {Persona} from "./persona";
 
 @Component({
   selector: 'app-root',
@@ -7,4 +10,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sistemaR';
+    // Inyectar servicio en constructor
+    constructor(private personasService: PersonasService) {}
+
+    // Función que hace la petición
+    // probarGet() {
+    //   this.personasService
+    //   .obtener()
+    //   .subscribe((personas?: Persona[]) => {
+    //     console.log(personas);
+    //   });
+    // }
 }

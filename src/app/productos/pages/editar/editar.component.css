@@ -1,0 +1,13 @@
+.selected{
+  background-color: brown;
+  color: rgb(121, 143, 163);
+  }
+
+  .unSelected{
+    background-color: rgb(0, 209, 28);
+    color:brown;
+  }
+.clase
+{
+  background-color: blueviolet;
+}

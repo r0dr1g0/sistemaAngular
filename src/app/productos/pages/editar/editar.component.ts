@@ -7,8 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EditarComponent implements OnInit {
 
-  constructor() { }
+  ciudades = ['santa cruz', 'la paz', 'oruro', 'cobija'];
+  habitantes = ['3434343', '4565', '576576', '67675'];
+  nombre!: string;
 
+  constructor() { }
   ngOnInit(): void {
   }
 

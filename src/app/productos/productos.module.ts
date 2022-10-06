@@ -9,6 +9,7 @@ import { AgregarComponent } from './pages/agregar/agregar.component';
 import { EditarComponent } from './pages/editar/editar.component';
 import { ListadoComponent } from './pages/listado/listado.component';
 import { ProductoComponent } from './pages/producto/producto.component';
+import { CharizardComponent } from './pages/charizard/charizard.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { ProductoComponent } from './pages/producto/producto.component';
     AgregarComponent,
     EditarComponent,
     ListadoComponent,
-    ProductoComponent
+    ProductoComponent,
+    CharizardComponent,
   ],
   imports: [
     CommonModule,

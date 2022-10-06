@@ -1,1 +1,37 @@
 <p>editar works!</p>
+
+<ul >
+  <li *ngFor="let vciudad of ciudades" [ngClass]="['selected', 'unSelected']">{{ vciudad}}</li>
+</ul>
+
+<hr>
+
+<ul >
+  <li *ngFor="let vciudad of ciudades">{{ vciudad}}</li>
+</ul>
+
+<hr>
+
+<ul >
+  <li *ngFor="let vciudad of ciudades" [ngClass]="{'selected': vciudad === 'oruro', 'unSelected': vciudad !== 'la paz'}"> {{ vciudad}} </li>
+</ul>
+
+<hr>
+<input type="text" id="">
+<p *ngIf="nombre"> El nombre es: {{ nombre }}</p>
+
+<p> -- tablas --</p>
+<table class="table table-hover">
+  <thead>
+    <tr >
+      <th>NOMBRE CIUDAD</th>
+      <th>HABITAMTES</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr >
+      <th *ngFor="let ciudad of ciudades, let habitante of habitantes">{{ ciudad }} {{ habitante }}</th>
+    </tr>
+  </tbody>
+</table>
+<p> -- tablas --</p>
