@@ -9,6 +9,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { ProductosModule } from './productos/productos.module';
 import { ClassMaterialModule } from './material.module';
 
+
 @NgModule({
   declarations: [
     AppComponent
@@ -21,6 +22,7 @@ import { ClassMaterialModule } from './material.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     // ProductosModule
+
 
 
 
