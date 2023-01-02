@@ -1,0 +1,15 @@
+<header>
+  <a routerLink="/" style="text-decoration: none;"  ><h2 class="logo"> Corporative</h2></a>
+  <input type="checkbox" name="" id="check">
+  <label for="check" class="mostrar-menu"> # </label>
+
+  <nav class="menu">
+      <a routerLink="/inicio" >INICIO</a>
+      <a routerLink="/nosotros" >SOBRE NOSOTROS</a>
+      <a [routerLink]="['/auth/registro']">BLOG</a>
+      <a routerLink="/examples" routerLinkActive="active">EXAMPLES</a>
+      <a [routerLink]="['/servicios']" >servicios</a>
+      <a [routerLink]="['/']" >page blank</a>
+      <label for="check" class="esconder-menu"> # </label>
+  </nav>
+</header>

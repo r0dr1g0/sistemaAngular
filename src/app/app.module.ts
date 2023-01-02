@@ -1,18 +1,19 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-//Llamada
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-// import { ProductosModule } from './productos/productos.module';
 import { ClassMaterialModule } from './material.module';
+
+//Llamada
+import { AppComponent } from './app.component';
+import { DashboardModule } from './website/pages/dashboard-layout/dashboard.module';
+// COMPONENTES
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
     ],
   imports: [
     BrowserModule,
@@ -21,7 +22,7 @@ import { ClassMaterialModule } from './material.module';
     HttpClientModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    // ProductosModule
+    DashboardModule,
 
 
 

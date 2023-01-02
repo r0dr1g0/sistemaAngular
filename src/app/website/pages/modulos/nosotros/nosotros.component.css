@@ -1,0 +1,18 @@
+.contenedor {
+  border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  height: 300px;
+  padding: 3px 10px;
+  /* margin: 20px; */
+  flex-flow: wrap;
+
+}
+
+.caja {
+  border: solid 1px black;
+  width: 200px;
+  height: 100px;
+
+}

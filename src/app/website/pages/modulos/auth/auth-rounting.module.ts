@@ -4,12 +4,10 @@ import { ForgotComponent } from './pages/forgot/forgot.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegistroComponent } from './pages/registro/registro.component';
 // import { CommonModule } from '@angular/common';
-import { DashboardLayoutComponent } from '../website/pages/dashboard-layout/dashboard-layout.component';
 const routes: Routes =
 [
   {
-    // path: '',
-    path: '', component: DashboardLayoutComponent,
+    path: '',
     children: [
       {path: 'forgot', component: ForgotComponent},
       {path: 'login', component: LoginComponent},

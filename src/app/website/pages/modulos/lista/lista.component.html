@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <p>Lista de servicios</p>
+    <ul class="list-group"  >
+      <li class="list-group-item" *ngFor="let mostrar of equipos, index as i">
+        <h6>Nombre: {{ mostrar.nombre }}</h6>
+        <h6>Especilidad: {{ mostrar.especialidad }}</h6>
+        <a [routerLink]="['/lista-equipo', i]">Ver mas</a>
+        <!-- <h6>Descripcion:{{ mostrar.descripcion }}</h6> -->
+      </li>
+    </ul>
+  </div>
+</div>

@@ -9,7 +9,7 @@ import {Persona} from "./persona";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'sistemaR';
+  title:string = 'sistemaR';
     // Inyectar servicio en constructor
     constructor(private personasService: PersonasService) {}
 

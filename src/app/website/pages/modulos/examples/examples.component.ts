@@ -1,11 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-forgot',
-  templateUrl: './forgot.component.html',
-  styleUrls: ['./forgot.component.css']
+  selector: 'app-examples',
+  templateUrl: './examples.component.html',
+  styleUrls: ['./examples.component.css']
 })
-export class ForgotComponent implements OnInit {
+export class ExamplesComponent implements OnInit {
 
   ver1:boolean = false;
   ver2:boolean = false;
@@ -46,11 +46,4 @@ export class ForgotComponent implements OnInit {
   ngOnInit(): void {
 
   }
-
-
-
-
-
-
-
 }
